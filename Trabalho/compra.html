@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colecione</title>
+    <link rel="stylesheet" href="css\estilo.css">
+    <script src="js\javinha.js"></script>
+</head>
+<body>
+    <header id="titulo">
+        <h1>Cadastro</h1>
+        <h5>Preencha o Cadastro para receber informações sobre como começar</h5>
+        <img src="img\numis.jpg" alt="">
+    </header>
+
+    <form action="index.html" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+    
+        <label for="aceite">
+            <input type="checkbox" id="aceite" name="aceite" required>
+            Aceito os termos e condições
+        </label>
+        
+        <a href="index.html"><button type="submit" onclick="Enviar()">Enviar</button></a>
+        
+    </form>
+    
+       
+</body>
+</html>
